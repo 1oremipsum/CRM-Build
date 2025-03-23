@@ -1,5 +1,5 @@
 import React from 'react';
-import { default as Menu } from './menu/Main';
+import { default as Menu } from './menu/Menu';
 
 const Main: React.FC = () => {
   return (
