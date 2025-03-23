@@ -1,10 +1,11 @@
 import React from 'react';
+import { default as Menu } from './menu/Main';
 
 const Main: React.FC = () => {
   return (
     <div className="app">
       <section className="main-content columns is fullheight">
-        {/** task: make menu bar */}
+        <Menu />
         <div className="container column is-10">
           <div className="section">
             <div className="card">
